@@ -7,7 +7,7 @@
 // even after you already figured it out. 
 
 int identity_function(int input) {
-  int x = ;
+  int x = cin >> input;
   return x;
 }
 
