@@ -6,7 +6,9 @@
 // We sometimes encourage you to keep trying things on a given exercise,
 // even after you already figured it out. 
 
-
+void callme() {
+  std::cout << "Hello from callme function!" << std::endl;
+}
 
 int function1() {
   callme();
