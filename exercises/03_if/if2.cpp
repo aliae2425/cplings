@@ -16,6 +16,11 @@ std::string fizz_if_foo(std::string fizzish) {
         return "foo";
     }
     // Fix: Make new "else if" and "else" cases to pass the test
+    else if (fizzish == "fuzz") {
+        return "bar";
+    } else {
+        return "baz"; // Default case
+    }
 
 
     
