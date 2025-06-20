@@ -14,11 +14,11 @@ struct Point {
     double y;
 
     bool operator==(const Point& p) const{
-        return std::abs(x - p.x) < 1e-6 && std::abs(y - ) < ;
+        return std::abs(x - p.x) < 1e-6 && std::abs(y - p.y) < 1e-6;
     }
 };
 
-constexpr Point point_zero = ; 
+constexpr Point point_zero = {0, 0}; 
 
 class Shape {
 public:
@@ -48,7 +48,7 @@ public:
     }
 
     double area() const {
-        return 0.0;
+        return pi * radius_ * radius_;
     }
 };
 
